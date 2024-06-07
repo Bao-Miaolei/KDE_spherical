@@ -1,0 +1,10 @@
+pandoc: 3.1.1
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  HW1: HW1.html
+last_built: 2024-06-07T05:24Z
+urls:
+  reference: https://bao-miaolei.github.io/KDE_spherical/reference
+  article: https://bao-miaolei.github.io/KDE_spherical/articles
+
