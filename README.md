@@ -1,3 +1,7 @@
+---
+output: github_document
+---
+
 # Purpose
 
 This is a package for kernel density estimation with spherical data based on Peter Hall, G. S. Watson, and Javier Cabrera. Kernel density estimation with spherical data. Biometrika, 74(4):751–762, 1987.

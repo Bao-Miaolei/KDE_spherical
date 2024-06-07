@@ -20,13 +20,13 @@ generate_plot <- function(X_Euc, kappa){
                      ygrid = numeric(90000),
                      zgrid = numeric(90000),
                      f = numeric(90000))
-  grid[,1:3] <- spherical.kde::transform_coordinates(expand.grid(log = sph_grid$log,
+  grid[,1:3] <- SphericalKDE::transform_coordinates(expand.grid(log = sph_grid$log,
                                                   lat = sph_grid$lat))
 
   # Calculate the estimation over the grid
   sph_pred <- function(grid, X_Euc, kappa){
     x <- grid[, 1:3]
-    grid[, 4] <- spherical.kde::f_hat(x = x, X = X_Euc, kappa = kappa)
+    grid[, 4] <- SphericalKDE::f_hat(x = x, X = X_Euc, kappa = kappa)
     return(grid)
   }
   grid <- sph_pred(grid, X_Euc, kappa)

@@ -1,0 +1,68 @@
+---
+title: "Demo"
+author: "Miaolei Bao" 
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Demo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# How to install
+This package is called `SphericalKDE`. To install, run the following code (in R):
+
+```{r, eval = FALSE}
+library(devtools)
+devtools::install_github("Bao-Miaolei/KDE_spherical")
+```
+
+Upon completion, you can run the following code (in R):
+```{r}
+library(SphericalKDE)
+```
+
+# Import data
+This is a demo vignette for our package. We will use earthquake data with 77 observations contained in the ’spherepc’ package for demonstration. The data record significant earthquakes (8+ Mb magnitude) around the Pacific Ocean since 1900, collected by the U.S. Geological Survey. The data have longitude and latitude coordinates. 
+
+```{r}
+library(spherepc)
+
+# Import earthquake data and select longitude and latitude coordinates
+data(Earthquake)
+earthquake <- cbind(Earthquake$long, Earthquake$lat)
+head(earthquake)
+```
+
+# Data transformation
+
+We want to transform spherical coordinates (longitude, latitude) to 3-dim Euclidean coordinates for analysis.
+
+```{r}
+earthquake_Euc <- SphericalKDE::transform_coordinates(earthquake)
+head(earthquake_Euc)
+```
+
+# Cross validation
+
+Then we could use cross validation to select the optimal smoothing parameter $\kappa$.
+```{r}
+kappa_list <- 10^seq(1, 3, length.out = 100)
+optimal_kappa <- SphericalKDE::cv(kappa_list, earthquake_Euc)
+optimal_kappa
+```
+
+# Visualization
+```{r, out.width = '100%'}
+library(htmlwidgets)
+my_plotly_plot <- SphericalKDE::generate_plot(earthquake_Euc, kappa = optimal_kappa)
+my_plotly_plot
+#plotly_html <- htmlwidgets::saveWidget(my_plotly_plot, "my_plotly_plot.html")
+```
+

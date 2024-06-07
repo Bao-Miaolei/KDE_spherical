@@ -1,39 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/404.html</loc>
   </url>
   <url>
-    <loc>/LICENSE-text.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>/LICENSE.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/LICENSE.html</loc>
   </url>
   <url>
-    <loc>/articles/HW1.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/articles/HW1.html</loc>
   </url>
   <url>
-    <loc>/articles/index.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/articles/SphericalKDE.html</loc>
   </url>
   <url>
-    <loc>/authors.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/articles/index.html</loc>
   </url>
   <url>
-    <loc>/index.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/articles/my_plotly_plot.html</loc>
   </url>
   <url>
-    <loc>/reference/cv.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/authors.html</loc>
   </url>
   <url>
-    <loc>/reference/f_hat.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/index.html</loc>
   </url>
   <url>
-    <loc>/reference/generate_plot.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/reference/cv.html</loc>
   </url>
   <url>
-    <loc>/reference/index.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/reference/f_hat.html</loc>
   </url>
   <url>
-    <loc>/reference/transform_coordinates.html</loc>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/reference/generate_plot.html</loc>
+  </url>
+  <url>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>https://bao-miaolei.github.io/KDE_spherical/reference/transform_coordinates.html</loc>
   </url>
 </urlset>

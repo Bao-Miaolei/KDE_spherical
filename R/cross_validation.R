@@ -18,7 +18,7 @@ cv <- function(kappa_list, X_Euc){
   cv_KL <- function(kappa, X_Euc){
     n <- nrow(X_Euc)
     f <- sapply(1:n, function(i){
-      spherical.kde::f_hat(t(X_Euc[i,]), X_Euc[-i,], kappa)
+      SphericalKDE::f_hat(t(X_Euc[i,]), X_Euc[-i,], kappa)
     })
     return(1 / n * sum(log(f)))
   }
