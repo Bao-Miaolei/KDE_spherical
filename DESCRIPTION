@@ -17,3 +17,4 @@ Suggests:
     spherepc,
     testthat
 VignetteBuilder: knitr
+URL: https://bao-miaolei.github.io/KDE_spherical/
