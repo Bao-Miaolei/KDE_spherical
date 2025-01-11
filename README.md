@@ -8,6 +8,7 @@ This is a package for kernel density estimation with spherical data based on Pet
 
 - The URL to the GitHub (i.e., the source code) is: https://github.com/Bao-Miaolei/KDE_spherical
 - The URL to the Pkgdown webpage is: https://bao-miaolei.github.io/KDE_spherical/
+- The report is here: [Kernel density estimation with spherical data.pdf]([https://github.com/your-username/your-repository-name/path/to/file](https://github.com/Bao-Miaolei/KDE_spherical/blob/main/Kernel%20density%20estimation%20with%20spherical%20data.pdf))
 
 # Session info
 
