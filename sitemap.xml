@@ -1,39 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/404.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/articles/SphericalKDE.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/index.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/reference/cv.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/reference/f_hat.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/reference/generate_plot.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://bao-miaolei.github.io/KDE_spherical/reference/transform_coordinates.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/404.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/LICENSE-text.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/LICENSE.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/articles/SphericalKDE.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/articles/index.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/authors.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/index.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/reference/cv.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/reference/f_hat.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/reference/generate_plot.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/reference/index.html</loc></url>
+<url><loc>https://bao-miaolei.github.io/KDE_spherical/reference/transform_coordinates.html</loc></url>
 </urlset>
+
